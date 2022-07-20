@@ -194,3 +194,33 @@ hr {
     width: 1000px;
 
 }
+
+
+
+
+.down-para {
+    display: flex;
+
+    margin-left: 300px;
+    text-align: center;
+}
+
+.Terms {
+    margin-left: 50px;
+}
+
+.Privacy {
+    margin-left: 50px;
+}
+
+.Settings {
+    margin-left: 50px;
+}
+
+.Live {
+    margin-left: 50px;
+}
+
+.fac {
+    font-size: 2em;
+}
