@@ -11,7 +11,7 @@ body {
     height: 500px;
     background-color: rgb(15, 15, 15);
     border-radius: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 50px;
     align-items: center;
     margin-bottom: 100px;
@@ -46,49 +46,18 @@ h1 {
 
 }
 
-
-
-/* button  */
-.button {
-    border-radius: 4px;
+.Watch-Live {
+    text-decoration: none;
     background-color: red;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+    color: white;
+    font-size: 2ex;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5%;
+
 }
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.button:hover span {
-    padding-right: 25px;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-
-/* container start here  */
+/* 22222 */
 .main-contailer {
     height: 260px;
     width: 260px;
@@ -155,14 +124,8 @@ h1 {
     padding-top: 13px;
 }
 
-/* players box 1  */
-.sum-container {
-    display: flex;
-
-}
-
-.player-box-1 {
-    height: 315px;
+.flag-1 {
+    height: 215px;
     width: 300px;
     border: solid 1px rgb(189, 183, 183);
     border-radius: 13px;
@@ -170,41 +133,128 @@ h1 {
     margin-bottom: 20px;
 }
 
-.player-box-1 img {
-    width: 100%;
+.flag-2 {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 20px;
 }
 
-.small-box-1 {
-    width: 100px;
-    height: 32px;
-    border: solid 1px rgb(189, 183, 183);
-    text-align: center;
-    padding-bottom: 15px;
+.ff-1 {
+    padding-left: 10px;
+}
+
+.ff-2 {
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: 700;
-    border-radius: 5px;
+    font-size: 1em;
 }
 
-.players-box {
+.April {
+    text-align: center;
+}
+
+
+
+.sum-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flug-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 12px;
-}
-
-.icone {
-    display: flex;
-}
-
-.sami-div {
-    margin-left: 10px;
-}
-
-.message {
     margin-left: 30px;
 }
 
-.Transfer {
-    font-size: 1em;
-    font-weight: 700;
+/* all boxesss  */
+.bg-box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    padding-left: 80px;
+    padding-top: 30px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+/* button  */
+.button {
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button-1 {
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button-2 {
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* new item  */
+.big-box {
+    display: flex;
+}
+
+.flug-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /* footer part  */
@@ -254,13 +304,5 @@ hr {
 
 .fac {
     font-size: 2em;
-}
-
-/* responsive items  */
-@media only screen and (max-width:688px) {
-
-    #my-img {
-        width: 100%;
-    }
 
 }
