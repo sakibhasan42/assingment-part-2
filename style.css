@@ -56,3 +56,70 @@ h1 {
     border-radius: 5%;
 
 }
+
+/* container start here  */
+.main-contailer {
+    height: 260px;
+    width: 260px;
+    background-color: rgba(0, 0, 0, 0.959);
+    margin-left: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-1 {
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+    font-size: 2ex;
+    font-weight: 800;
+    padding-right: 20px;
+    padding-top: 13px;
+
+
+
+}
+
+.box-2 {
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2ex;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-size: 2ex;
+    font-weight: 800;
+    padding-right: 20px;
+    padding-top: 13px;
+}
+
+.box-3 {
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    text-align: center;
+
+    color: white;
+    font-size: 2ex;
+    font-weight: 800;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-top: 13px;
+}
