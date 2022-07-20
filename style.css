@@ -1,0 +1,58 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* first part css  */
+.cover-container {
+    display: flex;
+    width: 1250px;
+    height: 500px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.cover-text {
+    color: white;
+}
+
+h1 {
+    font-size: 6ex;
+    font-weight: 900;
+}
+
+.cover-text {
+    margin-left: 80px;
+
+}
+
+.cover-text {
+    width: 50%;
+}
+
+.cover-image {
+    margin-left: 50px;
+}
+
+
+.cover-image img {
+    width: 148%;
+
+}
+
+.Watch-Live {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 2ex;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5%;
+
+}
