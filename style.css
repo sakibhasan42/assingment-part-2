@@ -62,7 +62,7 @@ h1 {
     height: 260px;
     width: 260px;
     background-color: rgba(0, 0, 0, 0.959);
-    margin-left: 100px;
+    margin-left: 30px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -122,4 +122,54 @@ h1 {
     text-decoration: none;
     padding-right: 20px;
     padding-top: 13px;
+}
+
+/* players box 1  */
+.sum-container {
+    display: flex;
+
+}
+
+.player-box-1 {
+    height: 390px;
+    width: 362px;
+    border: solid 1px rgb(189, 183, 183);
+    border-radius: 13px;
+}
+
+.player-box-1 img {
+    width: 100%;
+}
+
+.small-box-1 {
+    width: 100px;
+    height: 32px;
+    border: solid 1px rgb(189, 183, 183);
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.players-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 12px;
+}
+
+.icone {
+    display: flex;
+}
+
+.sami-div {
+    margin-left: 10px;
+}
+
+.message {
+    margin-left: 30px;
+}
+
+.Transfer {
+    font-size: 1.5em;
+    font-weight: 700;
 }
